@@ -1,0 +1,577 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+}
+
+.content{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clearFix{
+    clear: both;
+}
+
+
+.header{
+
+background-image: url(../img/hero-01.jpg);
+height: 800px;
+
+}
+
+
+.grid{
+    background: url(../img/grid.png) repeat;
+    height: 800px;
+}
+
+.logoMenu{
+    
+    height: 80px;
+   
+}
+
+.logo{
+    float: left;
+    width: 90%;
+    padding-top: 70px;
+   
+}
+
+.menu{
+    float: left;
+    width:10%;
+    padding-top: 65px;
+}
+
+.menu>div:first-child{
+    padding-top: 10px;
+}
+.menu>div>i{
+    color: white;
+    font-size: 40px;
+    
+}
+
+.menu>div>span{
+
+    color: white;
+    font-size: 16px;
+    font-family: Calibri;
+}
+
+.menu>div{
+    float: left;
+    margin-left: 10px;
+}
+
+.headerDown{
+    padding-top: 200px;
+}
+
+.headerDown>p{
+    color: white;
+    font-size: 50px;
+    font-family: Calibri;
+}
+
+button{
+    height: 65px;
+    width: 195px;
+    
+    border-radius: 3px;
+
+    padding:5px;
+    padding-left: 0;
+
+}
+
+.headerDown>form>button:last-child{
+    margin-left: 10px;
+}
+
+.headerDown>form>button>span{
+    font-size: 17px;
+}
+
+.headerDown>form>button:first-child{
+    background: white;
+    color: #73d0da;
+    border: 1px solid white;
+    
+}
+
+.headerDown>form>button:first-child:hover{
+    background: #73d0da;;
+    color: white;
+    border: 1px solid #73d0da;
+    transition:color 1s;
+}
+
+.headerDown>form>button:last-child{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    
+}
+
+.headerDown>form>button:last-child:hover{
+    background: transparent;;
+    color: #73d0da;
+    border: 2px solid #73d0da;
+    transition:color 1s;
+}
+
+.video{
+    width: 100%;
+
+}
+
+
+.videoContent{
+    height: 200px;
+}
+
+.vOne{
+    width: 4%;
+    float: left;
+    margin-left: 37%;
+    margin-top: 60px;
+}
+
+.vOne>i{
+    font-size: 45px;
+    color: #323a45;
+}
+
+
+
+.vTwo{
+    width: 20%;
+    float:left;
+    margin-top: 63px;
+}
+
+
+
+.vTwo>span{
+    font-size: 30px;
+    color: #323a45;
+    font-family: Calibri;
+}
+
+
+
+
+
+
+
+.thirdPart{
+    width: 100%;
+    
+  }
+
+  .tPimg{
+      width: 55%;
+      float: left;
+      background-image: url(../img/features-intro.jpg);
+    background-repeat: no-repeat;
+      height: 401px;
+  }
+
+  .tPimg>img{
+      text-align: center;
+      padding-top: 180px;
+      padding-left: 50%;
+  }
+
+  .slider{
+      background: #3F6184;
+      float: left;
+      width: 45%;
+      height: 401px;
+  }
+
+  .slider>div{
+      padding-top: 40px;
+      padding-left: 80px;
+      width: 80%;
+      
+  }
+
+  .slider>div>h3{
+      color: white;
+      font-family: Calibri;
+      font-size: 25px;
+  }
+
+  .slider>div>span{
+      color: white;
+      font-family: Calibri;
+      font-size: 18px;
+  }
+
+    .slider>div>a{
+      color: #73d0da;
+      font-family: Calibri;
+      font-size: 18px;
+      text-decoration: none;
+  }
+
+  .fourthPart{
+      width: 100%;
+
+  }
+
+  .fourthPartContent div{
+      padding-top: 80px;
+      float:left;
+      height: 400px;
+  }
+
+  .fourthPartContent div>a{
+    text-decoration: none;
+    color: #323a45;
+    font-family: Calibri;
+    letter-spacing: 1px;
+  }
+
+    .fourthPartContent div>a:hover{
+   color: #73d0da;
+   transition: 1s;
+  }
+
+    .fourthPartContent div>a>i{
+   font-size: 14px;
+  }
+
+
+
+  .firstPart{
+      width: 33%;
+      
+  }
+
+  .firstPart>div:first-child{
+      width: 25%;
+      padding-top: 90px;
+  }
+
+  
+
+  .firstPart>div:last-child{
+    width: 65%;
+      margin-left: 15px;
+  }
+
+
+ .firstPart>div:last-child>span{
+     font-family: Calibri;
+ }
+    .firstPart>div:last-child>span:first-child{
+      font-size: 25px;
+      color: #323a45;
+  }
+
+    .firstText{
+      font-size: 16px;
+      color: gray;
+  }
+
+
+  .secondPart{
+      width: 33%;
+      
+  }
+
+  .secondPart>div:first-child{
+      width: 25%;
+      padding-top: 90px;
+  }
+
+  .secondPart>div:first-child>i{
+      color: #3F6184;
+      font-size: 30px;
+      border: 2px solid #3F6184;
+      border-radius: 100%;
+     padding: 30px;
+     
+   
+     
+  }
+
+  .secondPart>div:last-child{
+      width: 65%;
+      margin-left: 15px;
+
+  }
+
+
+ .secondPart>div:last-child>span{
+     font-family: Calibri;
+ }
+    .secondPart>div:last-child>span:first-child{
+      font-size: 25px;
+      color: #323a45;
+  }
+
+     .secondText{
+      font-size: 16px;
+      color: gray;
+  }
+
+
+.partThird{
+      width: 33%;
+      
+  }
+
+  .partThird>div:first-child{
+      width: 25%;
+      padding-top: 90px;
+  }
+
+  .partThird>div:first-child>i{
+      color: #3F6184;
+      font-size: 40px;
+      border: 2px solid #3F6184;
+      border-radius: 100%;
+     padding: 20px;
+     
+  }
+
+  .partThird>div:last-child{
+     width: 65%;
+ margin-left: 15px;
+  }
+
+
+ .partThird>div:last-child>span{
+     font-family: Calibri;
+ }
+    .partThird>div:last-child>span:first-child{
+      font-size: 25px;
+      color: #323a45;
+  }
+
+     .thirdText{
+      font-size: 16px;
+      color: gray;
+  }
+
+.fifthPart{
+    width: 100%;
+}
+
+.fifthFirst{
+   
+    background-image: url(../img/showcase-bg-fixed.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 603px;
+}
+
+.iPhonePart{
+width: 100%;
+height: 750px;
+padding-top: 40px;
+padding-left: 160px;
+}
+
+.iphoneLeft{
+  
+    width: 50%;
+    height: 676px;
+    background-image: url(../img/iphone-skeleton.png);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.iphoneLeft>img{
+    height: 445px;
+    width: 250px;
+    padding: 115px 55px;
+}
+
+.iphoneRight{
+  float: left;
+    width: 50%;
+    height: 500px;
+    color:white;
+    font-family: Calibri;
+    padding-top: 30px;
+    
+}
+
+.iphoneRight>p{
+    font-size: 30px;
+}
+
+.iphoneRight>span{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.avatar,.avatarText {
+    float: left;
+  
+}
+
+.avatar{
+    width: 15%;
+}
+.avatarText {
+    width: 70%;
+    font-style: italic;
+    font-family: Nunito;
+}
+
+.iphoneRight>button{
+    background: transparent;
+    color: white;
+    font-family: Calibri;
+    font-size: 16px;
+    border: 2px solid white;
+    padding-left: 0;
+    
+}
+
+.iphoneRight>button:hover{
+    color: #73d0da;
+    border: 2px solid #73d0da;
+    transition: 1s;
+}
+
+.fifthSecond{
+    width: 100%;
+    height: 220px;
+}
+
+.fifthSecond>.content>div>p{
+    color: #323a45;
+    font-family: Calibri;
+    font-size: 25px;
+} 
+
+.fifthSecond>.content>div>span{
+    color: gray;
+    font-family: Calibri;
+    font-size: 16px;
+} 
+
+.fifthSecond>.content>div>a{
+    color: #73d0da;
+    font-family: Calibri;
+    font-size: 16px;
+    text-decoration: none;
+} 
+
+.screenPart{
+    background: #3f6184;
+    
+    width: 100%;
+}
+
+.screens>div{
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+
+
+
+.enough{
+    width: 100%;
+    height: 400px;
+  
+
+}
+
+.enough>.content>div{
+    padding-top: 70px;
+     text-align: center;
+}
+
+.enough>.content>div>p{
+    font-size: 50px;
+    color: white;
+    font-family: Calibri;
+   
+}
+
+.enough>.content>div>form>button{
+  
+    background: transparent;
+    border: 2px solid white;
+    font-size: 16px;
+    font-family: Calibri;
+    color: white;
+}
+
+.enough>.content>div>form>button:hover{
+    color: #73d0da;
+     border: 2px solid #73d0da;
+     transition: 1s;
+}
+
+.footer{
+    width: 100%;
+}
+
+.footerFirst{
+    
+    margin: 120px 15px;
+}
+
+.fOne{
+    float: left;
+    width: 30%;
+}
+
+.fTwo{
+float: left;
+width: 70%;
+
+}
+
+.fTwo>ul>li{
+    display: inline;
+    list-style: none;
+    margin-left: 90px;
+  
+}
+
+
+.fTwo>ul>li>a{
+    text-decoration: none;
+      color: gray;
+    font-family: calibri;
+    font-size: 17px;
+}
+
+.fTwo>ul>li>a:hover{
+   color: #73d0da;
+   transition: 1s;
+}
+
+
+.footerSecond{
+    height: 178px;
+    margin-left: 12px;
+}
+
+.footerSecond>span{
+    font-family: Calibri;
+    font-size: 12px;
+    color: #c7cacc;
+}
+
+.footerSecond>span>a{
+    text-decoration: none;
+    color: #73d0da;
+}
